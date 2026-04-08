@@ -1,9 +1,9 @@
 # 🚀 Transformers in Text Generation: From n-grams to GPT & Beyond
 
-[![Paper Status](https://img.shields.io/badge/Paper-Research%20Summary-blue)](.)
-[![NLP](https://img.shields.io/badge/NLP-Transformers-brightgreen)](https://huggingface.co/models)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![Research](https://img.shields.io/badge/Type-Research%20Project-blue)
+![Field](https://img.shields.io/badge/Field-Natural%20Language%20Processing-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
 > 📖 A structured, research-backed breakdown of how **Transformers revolutionized AI text generation** — covering architecture, real-world models (ChatGPT, BERT, T5, Copilot), mathematical foundations, open challenges, and cutting-edge research directions.
 
