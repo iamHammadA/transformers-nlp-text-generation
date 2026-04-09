@@ -102,7 +102,8 @@ to be exclusively human.
 
 `gpt2` → [Hugging Face Model Card](https://huggingface.co/gpt2)
 
-```from transformers import pipeline
+```python
+from transformers import pipeline
 
 generator = pipeline("text-generation", model="gpt2")
 prompt = "The future of AI is"
@@ -122,7 +123,7 @@ about privacy, security, and the future of work.
 
 `bert-large-uncased...` → [Model Card](https://huggingface.co/bert-large-uncased-whole-word-masking-finetuned-squad)
 
-```
+```python
 from transformers import pipeline
 
 qa_pipeline = pipeline("question-answering", model="bert-large-uncased-whole-word-masking-finetuned-squad")
@@ -141,7 +142,7 @@ Answer: Transformer architecture
 
 ### Example 3: Text Classification
 
-```
+```python
 classifier = pipeline("sentiment-analysis")
 result = classifier("I love how transformers revolutionized NLP!")
 print(f"Sentiment: {result[0]['label']} (Confidence: {result[0]['score']:.2f})")
@@ -236,7 +237,7 @@ Embeddings │  └────────────────────�
 
 Each token is mapped to three vectors:
 
-```
+```python
 import torch
 import torch.nn.functional as F
 
@@ -266,7 +267,7 @@ Attention output shape: torch.Size([1, 5, 512])
 
 ### 2. Positional Encoding
 
-```
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -296,7 +297,7 @@ plt.show()
 
 ### 3. Feed-Forward Network
 
-```
+```python
 class FeedForwardNetwork(torch.nn.Module):
     def __init__(self, d_model, d_ff):
         super().__init__()
@@ -328,7 +329,7 @@ FFN output shape: torch.Size([1, 10, 512])
 | **ChatGPT / GPT-3/4** | Decoder-only | Conversational AI, creative writing, code |
 | **BERT** | Encoder-only | Sentiment, NER, QA (bidirectional context) |
 | **T5** | Encoder-Decoder | Translation, summarization, classification (text-to-text) |
-| **GitHub Copilot** | Transformer decoder | AI-powered code completion & generationg |
+| **GitHub Copilot** | Transformer decoder | AI-powered code completion & generation |
 
 ---
 ## 💡 ChatGPT Generation Pipeline (Simplified):
@@ -389,15 +390,6 @@ Found a typo? Have a clearer visualization? Want to add a new model comparison o
 ⭐ Star this repo to support open NLP education and help it reach more learners.
 
 📜 Licensed under the MIT License. Free for academic, commercial, and personal use.
-
-
-### 🔑 Why This README Will Gain Traction:
-1. **SEO-Optimized Headline & First Paragraph** → Packed with high-search GitHub keywords (`Transformers`, `Text Generation`, `GPT`, `BERT`, `NLP`, `Self-Attention`).
-2. **Clear Value Proposition Upfront** → Tells viewers *exactly* why they should star, use, or cite it.
-3. **Academic + Developer Friendly** → Mathematical formulas, model tables, and real-world pipelines appeal to both researchers and engineers.
-4. **Built-in Virality Hooks** → Explicit star/share prompts, citation block, and contribution guidelines.
-5. **GitHub Algorithm Friendly** → Clean structure, badges, tables, and semantic headers improve search ranking and preview rendering.
-6. **Action-Oriented Sections** → “How to Use This Repo” lowers friction for new visitors and encourages saves/forks.
 
 💡 **Pro Tip:** Add a `📁 paper/` folder with the original `.docx` and a `📊 assets/` folder for architecture diagrams. Link them in the README to boost engagement and download rates.
 
