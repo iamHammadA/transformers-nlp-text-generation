@@ -370,7 +370,7 @@ FFN output shape: torch.Size([1, 10, 512])
 @misc{transformers_text_gen,
   author = {Hammad},
   title = {Transformers in Text Generation: A Research Summary},
-  year = {2025},
+  year = {2026},
   url = {https://github.com/iamHammadA/transformers-nlp-text-generation}
 }
 ```
