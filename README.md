@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
-📄 ![Download Full Research Paper (PDF)](/papers/Transformers_in_Text_Generation.pdf)
+📄 [Download Full Research Paper (PDF)](./papers/Transformers_in_Text_Generation.pdf)
 
 > 📖 A structured, research-backed breakdown of how **Transformers revolutionized AI text generation** — covering architecture, real-world models (ChatGPT, BERT, T5, Copilot), mathematical foundations, open challenges, and cutting-edge research directions.
 
