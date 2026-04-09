@@ -104,6 +104,8 @@ to be exclusively human.
 
 ### Example 1: Text Completion (GPT-2)
 
+`gpt2` → [Hugging Face Model Card](https://huggingface.co/gpt2)
+
 ```from transformers import pipeline
 
 generator = pipeline("text-generation", model="gpt2")
@@ -121,6 +123,8 @@ about privacy, security, and the future of work.
 ```
 
 ### Example 2: Question Answering (BERT)
+
+`bert-large-uncased...` → [Model Card](https://huggingface.co/bert-large-uncased-whole-word-masking-finetuned-squad)
 
 ```
 from transformers import pipeline
@@ -357,8 +361,8 @@ FFN output shape: torch.Size([1, 10, 512])
 
 ## 📚 References & Citation
 
-1. Vaswani et al. (2017). Attention is All You Need. NeurIPS.
-2. Devlin et al. (2019). BERT: Pre-training of Deep Bidirectional Transformers. NAACL-HLT.
+1. Vaswani et al. (2017). [Attention Is All You Need](https://arxiv.org/abs/1706.03762). NeurIPS.
+2. Devlin et al. (2019). [BERT: Pre-training of Deep Bidirectional Transformers](https://arxiv.org/abs/1810.04805). NAACL-HLT.
 3. Radford et al. (2019). Language Models are Unsupervised Multitask Learners. OpenAI.
 4. Brown et al. (2020). Language Models are Few-Shot Learners. NeurIPS.
 5. Hochreiter & Schmidhuber (1997). Long Short-Term Memory. Neural Computation.
