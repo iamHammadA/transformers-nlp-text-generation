@@ -53,17 +53,13 @@ Introduced in *“Attention Is All You Need”* (Vaswani et al., 2017), Transfor
 
 ### 🔑 Core Components
 - **Self-Attention:** Computes token relevance using `Query (Q)`, `Key (K)`, and `Value (V)` vectors:
-  ```math
-  \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^\top}{\sqrt{d_k}}\right)V
 
-- **Positional Encoding:** Injects sequence order into parallel processing via sine/cosine functions:
-math
+$$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^\top}{\sqrt{d_k}}\right)V$$
 
-$$
-PE_{(pos, 2i)} = \sin\left(\frac{pos}{10000^{2i/d_{model}}}\right), \quad 
-PE_{(pos, 2i+1)} = \cos\left(\frac{pos}{10000^{2i/d_{model}}}\right)
-$$
+- **Positional Encoding:** Injects sequence order via sine/cosine functions:
 
+$$PE_{(pos, 2i)} = \sin\left(\frac{pos}{10000^{2i/d_{model}}}\right)$$
+$$PE_{(pos, 2i+1)} = \cos\left(\frac{pos}{10000^{2i/d_{model}}}\right)$$
 - **Multi-Head Attention:** Runs parallel attention heads to capture syntactic, semantic, and positional relationships.
 - **Feed-Forward Network (FFN):** Applies non-linear transformation per token:
 
@@ -373,7 +369,7 @@ FFN output shape: torch.Size([1, 10, 512])
   author = {Hammad},
   title = {Transformers in Text Generation: A Research Summary},
   year = {2025},
-  url = {[https://github.com/iamHammadA/transformers-text-generation]}
+  url = {https://github.com/iamHammadA/transformers-nlp-text-generation}
 }
 ```
 
