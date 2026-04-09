@@ -48,6 +48,7 @@
 Introduced in *“Attention Is All You Need”* (Vaswani et al., 2017), Transformers replaced recurrence with **self-attention**, enabling parallel processing and capturing dependencies across any token distance.
 
 ![Transformer Architecture](/assets/transformer-architecture.png)
+
 *Source: "Attention Is All You Need" (Vaswani et al., 2017)*
 
 ### 🔑 Core Components
