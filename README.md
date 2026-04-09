@@ -47,7 +47,7 @@
 
 Introduced in *“Attention Is All You Need”* (Vaswani et al., 2017), Transformers replaced recurrence with **self-attention**, enabling parallel processing and capturing dependencies across any token distance.
 
-![Transformer Architecture](/assets/transformer-architecture.png)
+![Transformer Architecture](./assets/transformer-architecture.png)
 
 *Source: "Attention Is All You Need" (Vaswani et al., 2017)*
 
@@ -67,10 +67,10 @@ $$
 \text{FFN}(x) = \text{ReLU}(xW_1 + b_1)W_2 + b_2
 $$
 
-- Architecture Variants:
-  - ```Encoder-Only``` → BERT (bidirectional understanding, classification, QA)
-  - ```Decoder-Only``` → GPT series (autoregressive generation, dialogue, code)
-  - ```Encoder-Decoder``` → T5 (unified text-to-text tasks)
+- **Architecture Variants:**
+  - `Encoder-Only` → BERT (bidirectional understanding, classification, QA)
+  - `Decoder-Only` → GPT series (autoregressive generation, dialogue, code)
+  - `Encoder-Decoder` → T5 (unified text-to-text tasks)
  
 ## 🎯 Quick Start: See It Work
 
@@ -91,7 +91,8 @@ print(result[0]['generated_text'])
 
 ## OUTPUT:
 
-```Artificial Intelligence is transforming the way we live and work. From autonomous vehicles to medical diagnosis, 
+```text
+Artificial Intelligence is transforming the way we live and work. From autonomous vehicles to medical diagnosis, 
 AI systems are becoming increasingly sophisticated and capable of performing complex tasks that were once thought 
 to be exclusively human.
 ```
@@ -113,7 +114,7 @@ print(output[0]['generated_text'])
 
 ### Output:
 
-```
+```text
 The future of AI is bright, but it's also uncertain. AI has the potential to transform industries, 
 create new jobs, and improve our lives in countless ways. But it also raises important questions 
 about privacy, security, and the future of work.
@@ -136,7 +137,7 @@ print(f"Answer: {result['answer']}")
 
 ### Output:
 
-```
+```text
 Answer: Transformer architecture
 ```
 
@@ -150,7 +151,7 @@ print(f"Sentiment: {result[0]['label']} (Confidence: {result[0]['score']:.2f})")
 
 ### Output:
 
-```
+```text
 Sentiment: POSITIVE (Confidence: 0.99)
 ```
 
@@ -261,7 +262,7 @@ print(f"Attention output shape: {output.shape}")
 
 ### Output:
 
-```
+```text
 Attention output shape: torch.Size([1, 5, 512])
 ```
 
@@ -318,7 +319,7 @@ print(f"FFN output shape: {output.shape}")
 
 ### Output:
 
-```
+```text
 FFN output shape: torch.Size([1, 10, 512])
 ```
 
@@ -390,7 +391,3 @@ Found a typo? Have a clearer visualization? Want to add a new model comparison o
 ⭐ Star this repo to support open NLP education and help it reach more learners.
 
 📜 Licensed under the MIT License. Free for academic, commercial, and personal use.
-
-💡 **Pro Tip:** Add a `📁 paper/` folder with the original `.docx` and a `📊 assets/` folder for architecture diagrams. Link them in the README to boost engagement and download rates.
-
-Let me know if you want a version tailored for **Twitter/X promotion**, **LinkedIn posting**, or **arXiv-style supplemental material**!
