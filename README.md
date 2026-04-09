@@ -349,12 +349,6 @@ FFN output shape: torch.Size([1, 10, 512])
 - **🛠️ Parameter-Efficient Tuning:** LoRA, prompt-tuning, adapters for low-cost domain customization
 - **🌐 Multimodal Expansion:** Extending transformer paradigms to vision, audio, robotics, and scientific reasoning
 
-## 📄 Research Paper
-
-Read the full research paper here:
-
-[Transformers in Text Generation (PDF)](papers/Research Paper on Transformers in Text Generation.pdf)
-
 ## 📚 References & Citation
 
 1. Vaswani et al. (2017). Attention is All You Need. NeurIPS.
