@@ -353,7 +353,7 @@ FFN output shape: torch.Size([1, 10, 512])
 
 Read the full research paper here:
 
-[Transformers in Text Generation (PDF)](papers/transformers-text-gen-paper.pdf)
+[Transformers in Text Generation (PDF)](papers/Research Paper on Transformers in Text Generation.pdf)
 
 ## 📚 References & Citation
 
